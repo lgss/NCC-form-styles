@@ -1,0 +1,32 @@
+#header {
+	background-color: #036D5F;
+}
+
+.col-md-4 {
+	#ncc-logo {
+		display: none;
+	}
+	#CTU-logo{
+		display: block;
+	}
+}
+
+.FooterArea {
+	background-color: #036D5F;
+	box-shadow: 0px 1000px 0px 1000px #036D5F;
+
+	#NCC-Footer {
+		display: none;
+	}
+
+	#PrivacyNotice-Footer {
+		display: block;
+		color: #FFFFFF;
+
+		a{
+			text-decoration:underline;
+			color: #FFFFFF;
+			font-weight: bold;
+		}
+	}
+}
