@@ -9,13 +9,13 @@
 .AF-Category-Highways{
 	@import "shared/Highways";
 }
-.AF-Category-FireRescue{
+.AF-Category-FireRescue, .AF-Category-Fire---Request-a-home-fire-safety-check, .AF-Category-Fire---Partner-agency-home-fire-safety-check-referral{
 	@import "shared/FireRescue";
 }
 .AF-Category-NSCB{
 	@import "shared/NSCB";
 }
-.AF-Category-FfW{
+.AF-Category-FfW, .AF-Category-Get-Invoved---Contact-the-Get-Involved-team{
 	@import "shared/FfW";
 }
 .AF-Category-CTU{
