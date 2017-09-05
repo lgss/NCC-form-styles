@@ -1,0 +1,32 @@
+#header {
+	background-color: #81ba27;
+}
+
+.col-md-4 {
+	#ncc-logo {
+		display: none;
+	}
+	#FfW-Parks-logo{
+		display: block;
+	}
+}
+
+.FooterArea {
+	background-color: #81ba27;
+	box-shadow: 0px 1000px 0px 1000px #81ba27;
+
+	#NCC-Footer {
+		display: none;
+	}
+
+	#FfW-Footer {
+		display: block;
+		color: #FFFFFF;
+
+		a{
+			text-decoration:underline;
+			color: #FFFFFF;
+			font-weight: bold;
+		}
+	}
+}

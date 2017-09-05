@@ -14,23 +14,18 @@ body {
 }
 
 .col-md-4 {
-
+  
+  //display only NCC Logo
   #ncc-logo {
     display: block;
   }
-  #lgss-logo {
-    display: none;
-  }
-  #YouthWorks-logo {
-    display: none;
-  }
-  #FireRescue-logo{
-    display: none;
-  }
-  #NSCB-logo{
-    display: none;
-  }
-  #FfW-logo{
+  #lgss-logo,
+  #YouthWorks-logo,
+  #FireRescue-logo,
+  #NSCB-logo,
+  #FfW-logo,
+  #FfW-Parks-logo,
+  #CTU-logo{
     display: none;
   }
 }
@@ -71,18 +66,13 @@ a.btn.btn-lg.btn-primary.top:hover {
   color: #fff;
   box-shadow: 0px 1000px 0px 1000px #7F1183;
 
+  //display only NCC footer
   #NCC-Footer {
     display: block;
   }
-  #LGSS-Footer {
-    display: none;
-  }
-  #YouthWorks-Footer {
-    display: none;
-  }
-  #PrivacyNotice-Footer {
-    display: none;
-  }
+  #LGSS-Footer,
+  #YouthWorks-Footer,
+  #PrivacyNotice-Footer,
   #FfW-Footer{
     display: none;
   }
