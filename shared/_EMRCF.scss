@@ -1,0 +1,40 @@
+#header {
+	background-color: #17365D;
+	color: #FFFFFF;
+	font-size: 2em;
+	font-weight: bold;
+	text-align: center;
+	margin-bottom: 20px;
+		#EMRCF-logo{
+		display: block;
+		margin-bottom: 20px;
+	}
+}
+
+.col-md-4 {
+	#ncc-logo {
+		display: none;
+	}
+
+}
+
+.FooterArea {
+	background-color: #FFFFFF;
+	box-shadow: 0px 1000px 0px 1000px #FFFFFF;
+
+	#NCC-Footer {
+		display: none;
+	}
+
+	#EMRCF-Footer {
+		display: block;
+		color: #000000;
+		text-align: center;
+
+		a{
+			text-decoration:underline;
+			color: #000000;
+			font-weight: bold;
+		}
+	}
+}
