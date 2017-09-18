@@ -138,8 +138,8 @@ a#navDropdownToggle {
 
   ul#session-badge {
     /*width: 100%;*/ } }
-h1 {
-  font-size: 2.5em;
+h1, html._AF h1 {
+  font-size: 1.8em;
   font-weight: bold;
   margin: 0 0 0.5em 0;
   font-family: 'Open Sans', Arial, 'Helvetica Neue', Helvetica, sans-serif;
@@ -147,7 +147,7 @@ h1 {
   margin-bottom: 15px; }
 
 h2 {
-  font-size: 1.8em;
+  font-size: 1.6em;
   font-weight: 300;
   margin-top: 30px !important;
   margin-bottom: 15px;
@@ -218,5 +218,11 @@ p {
    */
 .submitRating::after {
   content: none !important; }
+
+/*Fixes*/
+
+.navbar-collapse{
+  padding-right: 0;
+}
 
 /*# sourceMappingURL=main.css.map */
