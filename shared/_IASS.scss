@@ -1,0 +1,32 @@
+#header {
+	background-color: #e76521;
+}
+
+.col-md-4 {
+	#ncc-logo {
+		display: none;
+	}
+	#IASS-logo{
+		display: block;
+	}
+}
+
+.FooterArea {
+	background-color: #e76521;
+	box-shadow: 0px 1000px 0px 1000px #e76521;
+
+	#NCC-Footer {
+		display: none;
+	}
+
+	#IASS-Footer {
+		display: block;
+		color: #FFFFFF;
+
+		a{
+			text-decoration:underline;
+			color: #FFFFFF;
+			font-weight: bold;
+		}
+	}
+}
