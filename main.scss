@@ -13,7 +13,8 @@
 }
 .AF-Category-FireRescue, 
 .AF-Category-Fire---Request-a-home-fire-safety-check, 
-.AF-Category-Fire---Partner-agency-home-fire-safety-check-referral{
+.AF-Category-Fire---Partner-agency-home-fire-safety-check-referral,
+.AF-Category-Fire---Request-a-visit-from-Fire-Protection{
 	@import "shared/FireRescue";
 }
 .AF-Category-NSCB{
@@ -48,6 +49,7 @@
 .AF-Category-Superfast---Register-interest-in-NoDe{
 	@import "shared/Superfast";
 }
-.AF-Category-IASS{
+.AF-Category-IASS,
+.AF-Category-IASS---Contact-IASS{
 	@import "shared/IASS";
 }
