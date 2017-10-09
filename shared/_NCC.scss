@@ -7,7 +7,8 @@ body {
 
 #header {
   background-color: #7F1183;
-  #EMRCF-logo{
+  #EMRCF-logo,
+  #MaSC-logo{
     display: none;
   }
   #testHead{
@@ -40,7 +41,8 @@ body {
   #IASS-logo,
   #OL-Grendon-logo,
   #OL-Everdon-logo,
-  #OL-Longtown-logo{
+  #OL-Longtown-logo,
+  #Charity-logo{
   display: none;
 }
 }
@@ -93,7 +95,9 @@ a.btn.btn-lg.btn-primary.top:hover {
   #IASS-Footer,
   #OL-Grendon-Footer,
   #OL-Everdon-Footer,
-  #OL-Longtown-Footer{
+  #OL-Longtown-Footer,
+  #Charity-Footer,
+  #MaSC-Footer{
     display: none;
   }
 

@@ -1,3 +1,7 @@
+/*
+Future improvements
+Use body[class^="AF-Category-Fire---"] to select all catagories that start with Fire etc
+*/
 @import "shared/NCC";
 
 .AF-Category-LGSS {
@@ -28,6 +32,7 @@
 	@import "shared/CTU";
 }
 .AF-Category-FfW-Parks,
+.AF-Category-FFW-Parks-Country-Parks-visitor-survey,
 .AF-Category-FfW-Parks---Country-parks-outdoor-activity-evaluation-form{
 	@import "shared/FfW-Parks";
 }
@@ -53,4 +58,10 @@
 .AF-Category-IASS,
 .AF-Category-IASS---Contact-IASS{
 	@import "shared/IASS";
+}
+.AF-Category-Charity{
+	@import "shared/Charity";
+}
+.AF-Category-MaSC{
+	@import "shared/MaSC";
 }
