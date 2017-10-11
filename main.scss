@@ -1,7 +1,3 @@
-/*
-Future improvements
-Use body[class^="AF-Category-Fire---"] to select all catagories that start with Fire etc
-*/
 @import "shared/NCC";
 
 .AF-Category-LGSS,
@@ -25,7 +21,7 @@ body[class*="AF-Category-Highways---"]{
 body[class*="AF-Category-Fire---"]{
 	@import "shared/FireRescue";
 }
-.AF-Category-NSCBm
+.AF-Category-NSCB,
 body[class*="AF-Category-MSCB---"]{
 	@import "shared/NSCB";
 }
