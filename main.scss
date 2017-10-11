@@ -1,20 +1,89 @@
+/*
+Future improvements
+Use body[class^="AF-Category-Fire---"] to select all catagories that start with Fire etc
+*/
 @import "shared/NCC";
 
-.AF-Category-LGSS {
+.AF-Category-LGSS,
+body[class*="AF-Category-LGSS---"] {
     @import "shared/LGSS";
 }
-.AF-Category-YouthWorks {
+.AF-Category-YouthWorks,
+body[class*="AF-Category-YouthWorks---"] {
 	@import "shared/YouthWorks";
 }	
-.AF-Category-Highways{
+.AF-Category-Highways,
+.AF-Category-Highways---Application-for-an-access-line,
+.AF-Category-Highways---Application-for-a-Vehicular-access,
+body[class*="AF-Category-Highways---"]{
 	@import "shared/Highways";
 }
-.AF-Category-FireRescue{
+.AF-Category-FireRescue, 
+.AF-Category-Fire---Request-a-home-fire-safety-check, 
+.AF-Category-Fire---Partner-agency-home-fire-safety-check-referral,
+.AF-Category-Fire---Request-a-visit-from-Fire-Protection,
+body[class*="AF-Category-Fire---"]{
 	@import "shared/FireRescue";
 }
-.AF-Category-NSCB{
+.AF-Category-NSCBm
+body[class*="AF-Category-MSCB---"]{
 	@import "shared/NSCB";
 }
-.AF-Category-FfW{
+.AF-Category-FfW,
+.AF-Category-Get-Invoved---Contact-the-Get-Involved-team,
+body[class*="AF-Category-FfW---"]{
 	@import "shared/FfW";
+}
+.AF-Category-CTU,
+body[class*="AF-Category-CTU---"]{
+	@import "shared/CTU";
+}
+.AF-Category-FfW-Parks,
+.AF-Category-FFW-Parks-Country-Parks-visitor-survey,
+.AF-Category-FfW-Parks---Country-parks-outdoor-activity-evaluation-form,
+.AF-Category-FfW-Parks---Room-enquiry,
+body[class*="AF-Category-FfW-Parks---"]{
+	@import "shared/FfW-Parks";
+}
+.AF-Category-OL-Grendon,
+body[class*="AF-Category-OL-Grendon---"]{
+	@import "shared/OL-Grendon";
+}
+.AF-Category-OL-Everdon,
+body[class*="AF-Category-OL-Everdon---"]{
+	@import "shared/OL-Everdon";
+}
+.AF-Category-OL-Longtown,
+.AF-Category-OL---Contact-Longtown-OLC,
+body[class*="AF-Category-OL-Longtown---"]{
+	@import "shared/OL-Longtown";
+}
+.AF-Category-EMRCF,
+.AF-Category-EMRCF---provider-on-LA,
+.AF-Category-EMRCF---LA-on-provider,
+body[class*="AF-Category-EMRCF---"]{
+	@import "shared/EMRCF";	
+}
+.AF-Category-Superfast,
+.AF-Category-Superfast---Register-interest-in-NoDe,
+body[class*="AF-Category-Superfast---"]{
+	@import "shared/Superfast";
+}
+.AF-Category-IASS,
+.AF-Category-IASS---Contact-IASS,
+body[class*="AF-Category-IASS---"]{
+	@import "shared/IASS";
+}
+.AF-Category-Charity,
+body[class*="AF-Category-Charity---"]{
+	@import "shared/Charity";
+}
+.AF-Category-MaSC,
+body[class*="AF-Category-MaSC---"]{
+	@import "shared/MaSC";
+}
+
+.AF-Category-Direct,
+body[class*="AF-Category-Direct---"]{
+	@import "shared/Direct";
 }

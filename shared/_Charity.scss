@@ -1,31 +1,31 @@
 #header {
-	background-color: #6f9f22;
+	background-color: #FFFFFF;
 }
 
 .col-md-4 {
 	#ncc-logo {
 		display: none;
 	}
-	#FfW-logo{
+	#Charity-logo{
 		display: block;
 	}
 }
 
 .FooterArea {
-	background-color: #6f9f22;
-	box-shadow: 0px 1000px 0px 1000px #6f9f22;
+	background-color: #FFFFFF;
+	box-shadow: 0px 1000px 0px 1000px #FFFFFF;
 
 	#NCC-Footer {
 		display: none;
 	}
 
-	#FfW-Footer {
+	#Charity-Footer {
 		display: block;
-		color: #FFFFFF;
+		color: #000000;
 
 		a{
 			text-decoration:underline;
-			color: #FFFFFF;
+			color: #000000;
 			font-weight: bold;
 		}
 	}

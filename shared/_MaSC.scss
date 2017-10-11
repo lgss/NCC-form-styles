@@ -1,25 +1,29 @@
 #header {
-	background-color: #6f9f22;
+	background-color: #FFFFFF;
+	text-align: left;
+	margin-left: 5px;
+	#MaSC-logo {
+		display: block;
+		img{
+			margin: 5px;
+		}
+	}
 }
 
 .col-md-4 {
 	#ncc-logo {
 		display: none;
 	}
-	#FfW-logo{
-		display: block;
-	}
 }
-
 .FooterArea {
-	background-color: #6f9f22;
-	box-shadow: 0px 1000px 0px 1000px #6f9f22;
+	background-color: #9f9f9f;
+	box-shadow: 0px 1000px 0px 1000px #9f9f9f;
 
 	#NCC-Footer {
 		display: none;
 	}
 
-	#FfW-Footer {
+	#MaSC-Footer {
 		display: block;
 		color: #FFFFFF;
 
@@ -30,3 +34,5 @@
 		}
 	}
 }
+
+

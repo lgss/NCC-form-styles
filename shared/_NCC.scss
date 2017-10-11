@@ -7,6 +7,18 @@ body {
 
 #header {
   background-color: #7F1183;
+  #EMRCF-logo,
+  #MaSC-logo,
+  #Direct-logo{
+    display: none;
+  }
+  #testHead{
+    background: white;
+    max-width: 90px;
+    padding: 10px;
+    text-align: middle;
+    margin: 10px auto;
+  }
 }
 
 .col-md-8 {
@@ -14,31 +26,32 @@ body {
 }
 
 .col-md-4 {
-
+  
+  //display only NCC Logo
   #ncc-logo {
     display: block;
   }
-  #lgss-logo {
-    display: none;
-  }
-  #YouthWorks-logo {
-    display: none;
-  }
-  #FireRescue-logo{
-    display: none;
-  }
-  #NSCB-logo{
-    display: none;
-  }
-  #FfW-logo{
-    display: none;
-  }
+  #lgss-logo,
+  #YouthWorks-logo,
+  #FireRescue-logo,
+  #NSCB-logo,
+  #FfW-logo,
+  #FfW-Parks-logo,
+  #CTU-logo,
+  #Superfast-logo,
+  #IASS-logo,
+  #OL-Grendon-logo,
+  #OL-Everdon-logo,
+  #OL-Longtown-logo,
+  #Charity-logo,
+  #Direct-logo{
+  display: none;
 }
-
+}
 .brand-image {
   margin: 20px 0;
   max-height: 110px;
-  width: auto;
+  max-width: 100%;
 }
 
 #navigation:before {
@@ -71,19 +84,22 @@ a.btn.btn-lg.btn-primary.top:hover {
   color: #fff;
   box-shadow: 0px 1000px 0px 1000px #7F1183;
 
+  //display only NCC footer
   #NCC-Footer {
     display: block;
   }
-  #LGSS-Footer {
-    display: none;
-  }
-  #YouthWorks-Footer {
-    display: none;
-  }
-  #PrivacyNotice-Footer {
-    display: none;
-  }
-  #FfW-Footer{
+  #LGSS-Footer,
+  #YouthWorks-Footer,
+  #PrivacyNotice-Footer,
+  #FfW-Footer,
+  #EMRCF-Footer,
+  #Superfast-Footer,
+  #IASS-Footer,
+  #OL-Grendon-Footer,
+  #OL-Everdon-Footer,
+  #OL-Longtown-Footer,
+  #Charity-Footer,
+  #MaSC-Footer{
     display: none;
   }
 
@@ -145,8 +161,8 @@ a#navDropdownToggle {
 
   ul#session-badge {
     /*width: 100%;*/ } }
-h1 {
-  font-size: 2.5em;
+h1, html._AF h1 {
+  font-size: 1.8em;
   font-weight: bold;
   margin: 0 0 0.5em 0;
   font-family: 'Open Sans', Arial, 'Helvetica Neue', Helvetica, sans-serif;
@@ -154,7 +170,7 @@ h1 {
   margin-bottom: 15px; }
 
 h2 {
-  font-size: 1.8em;
+  font-size: 1.6em;
   font-weight: 300;
   margin-top: 30px !important;
   margin-bottom: 15px;
@@ -225,5 +241,11 @@ p {
    */
 .submitRating::after {
   content: none !important; }
+
+/*Fixes*/
+
+.navbar-collapse{
+  padding-right: 0;
+}
 
 /*# sourceMappingURL=main.css.map */

@@ -1,5 +1,5 @@
 #header {
-	background-color: #CCCCCC;
+	background-color: white;
 }
 
 .col-md-4 {
@@ -13,8 +13,8 @@
 }
 
 .FooterArea {
-	background-color: #CCCCCC;
-	box-shadow: 0px 1000px 0px 1000px #CCCCCC;
+	background-color: #3C3C3B;
+	box-shadow: 0px 1000px 0px 1000px #3C3C3B;
 
 	#NCC-Footer {
 		display: none;
@@ -22,18 +22,7 @@
 
 	#YouthWorks-Footer {
 		display: block;
-		color: #000000;
+		color: white;
 	}
 
-}
-
-
-.cancelbutton, .submitbutton, .previousbutton{
-	background-color: #CCCCCC;
-	border-color: #CCCCCC;
-}
-
-.cancelbutton:hover, .submitbutton:hover, .previousbutton:hover{
-	background-color: #D7D7D7; 
-	border-color: #D7D7D7;
 }
