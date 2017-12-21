@@ -83,3 +83,8 @@ body[class*="AF-Category-MaSC---"]{
 body[class*="AF-Category-Direct---"]{
 	@import "shared/Direct";
 }
+
+.AF-Category-NMPAT,
+body[class*="AF-Category-NMPAT---"]{
+	@import "shared/NMPAT";
+}
