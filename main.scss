@@ -88,3 +88,8 @@ body[class*="AF-Category-Direct---"]{
 body[class*="AF-Category-NMPAT---"]{
 	@import "shared/NMPAT";
 }
+
+.AF-Category-NASS,
+body[class*="AF-Category-NASS---"]{
+	@import "shared/NASS";
+}
