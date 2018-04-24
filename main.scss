@@ -93,3 +93,7 @@ body[class*="AF-Category-NMPAT---"]{
 body[class*="AF-Category-ASC---"]{
 	@import "shared/ASC";
 }
+.AF-Category-CFE---school-transport,
+body[class*="AF-Category-CFE---school-transport"]{
+	@import "shared/SchoolTransport";
+}
