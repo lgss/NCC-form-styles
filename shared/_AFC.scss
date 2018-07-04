@@ -1,0 +1,32 @@
+#header {
+	background-color: #003C71;
+}
+
+.col-md-4 {
+	#ncc-logo {
+		display: none;
+	}
+	#AFC-logo{
+		display: block;
+	}
+}
+
+.FooterArea {
+	background-color: #575756;
+	box-shadow: 0px 1000px 0px 1000px #575756;
+
+	#NCC-Footer {
+		display: none;
+	}
+
+	#AFC-Footer {
+		display: block;
+		color: #FFFFFF;
+
+		a{
+			text-decoration:underline;
+			color: #FFFFFF;
+			font-weight: bold;
+		}
+	}
+}

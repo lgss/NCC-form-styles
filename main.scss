@@ -82,7 +82,11 @@ body[class*="AF-Category-ASC---"]{
 body[class*="AF-Category-CFE---school-transport"]{
 	@import "shared/SchoolTransport";
 }
-.AF-Category-CFE---,
+.AF-Category-CFE,
 body[class*="AF-Category-CFE---"]{
 	@import "shared/CFE";
+}
+.AF-Category-AFC,
+body[class*="AF-Category-AFC---"]{
+	@import "shared/AFC";
 }
