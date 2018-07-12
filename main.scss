@@ -36,7 +36,8 @@ body[class*="AF-Category-CTU---"]{
 }
 .AF-Category-OL-Longtown,
 .AF-Category-OL---Contact-Longtown-OLC,
-body[class*="AF-Category-OL-Longtown---"]{
+body[class*="AF-Category-OL-Longtown---"],
+body[class*="AF-Category-OL---Longtown-"]{
 	@import "shared/OL-Longtown";
 }
 .AF-Category-EMRCF,
