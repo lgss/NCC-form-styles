@@ -1,0 +1,28 @@
+#header {
+	background-color: black;
+}
+
+.col-md-4 {
+	#ncc-logo {
+		display: none;
+	}
+
+  	#StandOut-logo {
+		display: block
+	}
+}
+
+.FooterArea {
+	background-color: black;
+	box-shadow: 0px 1000px 0px 1000px black;
+
+	#NCC-Footer {
+		display: none;
+	}
+
+	#StandOut-Footer {
+		display: block;
+		color: white;
+	}
+
+}
