@@ -91,3 +91,7 @@ body[class*="AF-Category-CFE---"]{
 body[class*="AF-Category-AFC---"]{
 	@import "shared/AFC";
 }
+.AF-Category-Stand-out,
+body[class*="AF-Category-Stand-out"]{
+	@import "shared/StandOut";
+}
