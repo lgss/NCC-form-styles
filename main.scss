@@ -95,3 +95,7 @@ body[class*="AF-Category-AFC---"]{
 body[class*="AF-Category-Stand-out"]{
 	@import "shared/StandOut";
 }
+.AF-Category-Therapy,
+body[class*="AF-Category-Therapy---"]{
+	@import "shared/Therapy";
+}
