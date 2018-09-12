@@ -1,0 +1,27 @@
+#header {
+	background-color: #F7F7F7;
+}
+
+.col-md-4 {
+	#ncc-logo {
+		display: none;
+	}
+	#Therapy-logo{
+		display: block;
+	}
+}
+
+.FooterArea {
+	background-color: #da291c;
+	box-shadow: 0px 1000px 0px 1000px #da291c;
+
+	#NCC-Footer {
+		display: none;
+	}
+
+	#Therapy-Footer {
+		display: block;
+		color: #FFFFFF;
+
+	}
+}
