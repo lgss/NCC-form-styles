@@ -1,0 +1,28 @@
+#header {
+	background-color: white;
+}
+
+.col-md-4 {
+	#ncc-logo {
+		display: none;
+	}
+
+  	#CFE-social-logo{
+		display: block
+	}
+}
+
+.FooterArea {
+	background-color: #DFECF5;
+	box-shadow: 0px 1000px 0px 1000px #DFECF5;
+
+	#NCC-Footer {
+		display: none;
+	}
+
+	#CFE-social-Footer{
+		display: block;
+		color: black;
+	}
+	
+}
