@@ -99,3 +99,7 @@ body[class*="AF-Category-Stand-out"]{
 body[class*="AF-Category-Therapy---"]{
 	@import "shared/Therapy";
 }
+.AF-Category-CFE-social---,
+body[class*="AF-Category-CFE-social---"]{
+	@import "shared/CFE-social";
+}
