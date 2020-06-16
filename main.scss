@@ -103,3 +103,11 @@ body[class*="AF-Category-Therapy---"]{
 body[class*="AF-Category-CFE-social---"]{
 	@import "shared/CFE-social";
 }
+.AF-Category-FN---,
+body[class*="AF-Category-FN---"]{
+	@import "shared/FN";
+}
+.AF-Category-DN---,
+body[class*="AF-Category-DN---"]{
+	@import "shared/DN";
+}
