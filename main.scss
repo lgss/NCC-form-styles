@@ -111,3 +111,7 @@ body[class*="AF-Category-FN---"]{
 body[class*="AF-Category-DN---"]{
 	@import "shared/DN";
 }
+.AF-Category-CTF---,
+body[class*="AF-Category-CTF---"]{
+	@import "shared/CTF";
+}

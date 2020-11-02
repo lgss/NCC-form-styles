@@ -1,0 +1,26 @@
+#header {
+	background-color: #1C255B;
+}
+
+.col-md-4 {
+	#ncc-logo {
+		display: none;
+	}
+	#CTF-logo{
+		display: block;
+	}
+}
+
+.FooterArea {
+	background-color: #1C255B;
+	box-shadow: 0px 1000px 0px 1000px #1C255B;
+
+	#NCC-Footer {
+		display: none;
+	}
+
+	#CTF-Footer{
+		display: block;
+	}
+	
+}
