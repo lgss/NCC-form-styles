@@ -1,0 +1,26 @@
+#header {
+	background-color: #05873A;
+}
+
+.col-md-4 {
+	#ncc-logo {
+		display: none;
+	}
+	#NNC-logo{
+		display: block;
+	}
+}
+
+.FooterArea {
+	background-color: #000000;
+	box-shadow: 0px 1000px 0px 1000px #000000;
+
+	#NCC-Footer {
+		display: none;
+	}
+
+	#NNC-Footer{
+		display: block;
+	}
+	
+}

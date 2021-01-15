@@ -115,3 +115,11 @@ body[class*="AF-Category-DN---"]{
 body[class*="AF-Category-CTF---"]{
 	@import "shared/CTF";
 }
+.AF-Category-NNC---,
+body[class*="AF-Category-NNC---"]{
+	@import "shared/NNC";
+}
+.AF-Category-WNC---,
+body[class*="AF-Category-WNC---"]{
+	@import "shared/WNC";
+}
