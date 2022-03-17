@@ -1,0 +1,25 @@
+#header {
+	background-color: #ffffff;
+}
+
+.col-md-4 {
+	display:none
+}
+.new-logos {display:block}
+.new-logos > a{display:none}
+.new-logos #WDD-logo {display:block}
+.new-logos #WDD-logo .direct-debit{margin-left:50px}
+
+.FooterArea {
+	background-color: #3C3C3B;
+	box-shadow: 0px 1000px 0px 1000px #3C3C3B;
+
+	#NCC-Footer {
+		display: none;
+	}
+
+	#WNC-Footer{
+		display: block;
+	}
+	
+}

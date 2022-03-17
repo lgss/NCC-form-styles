@@ -3,14 +3,12 @@
 }
 
 .col-md-4 {
-	#ncc-logo {
-		display: none;
-	}
-	#NNC-logo{
-		display: block;
-	}
+	display:none
 }
-.new-logos{display:none}
+.new-logos {display:block}
+.new-logos > a{display:none}
+.new-logos #NDD-logo {display:block}
+.new-logos #NDD-logo .direct-debit{margin-left:50px}
 
 .FooterArea {
 	background-color: #000000;
