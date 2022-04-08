@@ -123,3 +123,19 @@ body[class*="AF-Category-NNC---"]{
 body[class*="AF-Category-WNC---"]{
 	@import "shared/WNC";
 }
+.AF-Category-Dual---,
+body[class*="AF-Category-Dual---"]{
+	@import "shared/Dual";
+}
+.AF-Category-WDD---,
+body[class*="AF-Category-WDD---"]{
+	@import "shared/WDD";
+}
+.AF-Category-NDD---,
+body[class*="AF-Category-NDD---"]{
+	@import "shared/NDD";
+}
+.AF-Category-Wsus---,
+body[class*="AF-Category-Wsus---"]{
+	@import "shared/Wsus";
+}

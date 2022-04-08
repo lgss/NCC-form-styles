@@ -6,7 +6,7 @@ body {
   background-color: #fff; }
 
 #header {
-  background-color: #7F1183;
+  background-color: #e9e9e9;
   #EMRCF-logo,
   #MaSC-logo,
   #Direct-logo,
@@ -14,14 +14,7 @@ body {
   #BETA-Text{
     display: none;
   }
-  #testHead{
-    background: white;
-    max-width: 90px;
-    padding: 10px;
-    text-align: middle;
-    margin: 10px auto;
   }
-}
 
 .col-md-8 {
   display: none; 
@@ -31,7 +24,7 @@ body {
   
   //display only NCC Logo
   #ncc-logo {
-    display: block;
+  display: block;
   }
   #lgss-logo,
   #YouthWorks-logo,
@@ -55,10 +48,24 @@ body {
   #DN-logo,
   #CTF-logo,
   #NNC-logo,
-  #WNC-logo{
+  #WNC-logo,
+  #Dual-logo,
+  #Wsus-logo{
   display: none;
 }
 }
+.new-logos{display:none}
+//.col-md-12 {
+
+//display only NCC Logo
+  //#ncc-logo {
+  //  display: block;
+  //}
+  //#WDD-logo,
+  //#NDD-logo{
+  //display: none;
+//}
+//}
 .brand-image {
   margin: 20px 0;
   max-height: 110px;
@@ -91,9 +98,9 @@ a.btn.btn-lg.btn-primary.top:hover {
   background-color: #3d3d3d; }
 
 .FooterArea {
-  background-color: #7F1183;
+  background-color: #2e2e2e;
   color: #fff;
-  box-shadow: 0px 1000px 0px 1000px #7F1183;
+  box-shadow: 0px 1000px 0px 1000px #2e2e2e;
 
   //display only NCC footer
   #NCC-Footer {
@@ -118,7 +125,11 @@ a.btn.btn-lg.btn-primary.top:hover {
   #DN-Footer,
   #CTF-Footer,
   #NNC-Footer,
-  #WNC-Footer{
+  #WNC-Footer,
+  #Dual-Footer,
+  #WDD-Footer,
+  #NDD-Footer,
+  #Wsus-Footer{
     display: none;
   }
 
@@ -127,7 +138,7 @@ a.btn.btn-lg.btn-primary.top:hover {
 .FooterArea {
   margin-top: 0;
   text-align: center;
-  background-color: #7f1183;
+  background-color: #2e2e2e;
   padding-top: 10px;
   padding-bottom: 10px;
   color: #fff;
