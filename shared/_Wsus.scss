@@ -6,12 +6,10 @@
 	#ncc-logo {
 		display: none;
 	}
-	#NNC-logo{
+	#Wsus-logo{
 		display: block;
 	}
 }
-.new-logos{display:none}
-
 .FooterArea {
 	background-color: #000000;
 	box-shadow: 0px 1000px 0px 1000px #000000;
@@ -20,8 +18,17 @@
 		display: none;
 	}
 
-	#NNC-Footer{
+	#Wsus-Footer {
 		display: block;
+		color: #FFFFFF;
+
+		img{
+			max-width: 300px;
+		}
+		a{
+			text-decoration:underline;
+			color: #FFFFFF;
+			font-weight: bold;
+		}
 	}
-	
 }
